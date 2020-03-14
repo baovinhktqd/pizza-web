@@ -19,9 +19,49 @@ a{
     max-width: 1170px;
     margin: 0 auto;
 }
+.d-flex {
+    display: flex;
+}
 
 /* ================= HEADER ================== */
 .header {}
 .header-top {
     background-color: #C00A27;
 }
+.header .header-top-content {
+    display: flex;
+    justify-content: space-between;
+    /* align-items: center; */
+}
+.header .header-top .logo {
+    display: block;
+}
+.header .header-top .logo {
+    margin-right: 40px;
+    padding: 7px 0 12px 0px;
+  
+}
+.header .header-title {
+flex-grow: 2;
+color: white;
+font-size: 14px;
+align-self: center;
+}
+.header .cart {
+    background-color:#850015;
+    padding: 7px 12px;
+}
+.header .cart .cart-link {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    color: white;
+}
+.header .cart .cart-icon {
+    margin-right: 20px;
+    font-size: 30px;
+}
+.header .cart .cart-num{
+    color: yellow;
+}
+.header .header-top .logo {}
